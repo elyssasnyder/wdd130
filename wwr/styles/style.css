@@ -1,26 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Crimson+Text&family=Dancing+Script&family=Merriweather:wght@300&family=Moon+Dance&family=Satisfy&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+.home-title{
+    color: #C497B7;
+    font-family: "Moon Dance", "Dancing Script", Satisfy;
+    font-size: 2em;
+    margin-top: 10px;
 }
 nav a{
     text-align: center;
     color: #C497B7;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+#hero-msg h4 {
+    font-family: "Crimson Text", Bitter, Merriweather;
 }
 .button-box {
     text-align: center;
 }
 main section {
     text-align: center;
+    font-family: "Crimson Text", Bitter, Merriweather;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #27187E;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #63ADF2;
@@ -33,6 +48,10 @@ nav a:hover {
     background-color:#C497B7 ;
     color: #214E34;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px,30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #27187E;
@@ -42,23 +61,28 @@ nav a:hover {
 }
 .msg{
     background-color: #63ADF2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #214E34;
     color: #A1E8AF;
     text-decoration: none;
-}
-.home-title{
-    color: #C497B7;
+    padding: 25px, 50px;
+    margin-top: 200px;
 }
 h4{
     color: #63ADF2;
 }
 .msg h2{
     color: #214E34;
+    font-family: "Moon Dance", "Dancing Script", Satisfy;
 }
 .msg p{
     color: #214E34;
+    font-family: "Crimson Text", Bitter, Merriweather;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #63ADF2;
@@ -68,9 +92,11 @@ footer a:hover{
 }
 .logo{
     width: 80px;
+    padding-top: 5px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -81,11 +107,18 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #63ADF2;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 
 
