@@ -17,9 +17,10 @@
 nav a {
     color: #48ACF0 ;
     text-decoration: none;
-    padding: 35px;
+    padding: 60px;
     text-align: center;
     background-color: black;
+    font-size: 1.5em;
 }
 
 #main-msg {
@@ -98,7 +99,7 @@ nav {
     width: 100%;
 }
 
-.fairy {
+#fairy {
     grid-column: 2/5;
     grid-row: 3/6;
 }
@@ -108,7 +109,7 @@ nav {
     grid-row: 6/7;
 }
 
-.jousting {
+#jousting {
     grid-column: 7/10;
     grid-row: 6/7;
 }
