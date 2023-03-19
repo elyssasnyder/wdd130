@@ -32,13 +32,13 @@ nav a {
 
 .home-grid h4 {
     text-align: left;
-    font-family: "Playfair Display" serif;
+    font-family: "Playfair Display", serif;
     color: #48ACF0;
 }
 
 .jousting h4 {
     text-align: left;
-    font-family: "Playfair Display" serif;
+    font-family: "Playfair Display", serif;
     color: #E51010;
 }
 
@@ -62,7 +62,7 @@ footer{
     background-color: #0B0A0A;
     color: #E51010;
     text-decoration: none;
-    padding: 25px, 50px;
+    padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
@@ -75,7 +75,7 @@ footer{
 
 header {
     display: grid;
-    grid-template-columns: 150px, auto;
+    grid-template-columns: 150px auto;
 }
 
 nav {
