@@ -70,6 +70,10 @@ footer{
     align-items: center;
 }
 
+footer a {
+    color: #48ACF0;
+}
+
 .card-img {
     border: 5px solid #0B0A0A;
 }
