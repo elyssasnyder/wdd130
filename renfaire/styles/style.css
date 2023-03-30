@@ -326,13 +326,17 @@ nav {
     }
 
     #fairy, #jousting {
-        margin: 10px auto;
-        width: 100%;
+        margin: 15px auto;
+        width: 60%;
     }
 
     .fairy-msg, .jousting-msg {
         font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    
+    .home-grid {
+        display: block;
+    }
 }
