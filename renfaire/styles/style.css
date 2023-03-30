@@ -305,38 +305,3 @@ nav {
     font-weight: bolder;
     font-size: 1.5em;
 }
-
-@media screen and (max-width: 900px) {
-    header, nav, main, footer {
-        display: block;
-        height: auto;
-    }
-    
-    nav a {
-        display: block;
-        padding: 15px;
-    } 
-
-    nav, footer {
-        flex-direction: column;
-    }
-
-    #welcome-msg {
-        font-size: 15px;
-    }
-
-    #fairy, #jousting {
-        margin: 15px auto;
-        width: 60%;
-    }
-
-    .fairy-msg, .jousting-msg {
-        font-size: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .home-grid {
-        display: block;
-    }
-}
